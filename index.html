@@ -1,332 +1,415 @@
 <!doctype html>
 <html lang="de">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>brotbruder Bio-Bäckerei — Freiburg</title>
-  <meta name="description" content="brotbruder — Bio-Bäckerei in der Zasiusstraße 9, Freiburg-Wiehre. Seit 2022 Handwerk mit Bioland-Mehl und Sauerteig, 4,7★ auf Google und über 35.000 Follower auf Instagram (@brotbruder_fr)." />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,500;0,600;1,500&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="style.css" />
-  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='22' fill='%233a4a34'/%3E%3Ctext x='50' y='68' font-size='58' text-anchor='middle' fill='%23f1e6d2'%3Eb%3C/text%3E%3C/svg%3E" />
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>brotbruder Bio-Bäckerei — Zasiusstraße 9, Freiburg-Wiehre</title>
+<meta name="description" content="brotbruder Bio-Bäckerei in der Zasiusstraße 9, Freiburg-Wiehre: Bioland-Mehl, lange Sauerteigführung, kleines Sortiment. Seit 2022 von Bäckermeister Michael Schulze." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,600;1,6..72,400&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="style.css" />
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%23f7f3ea'/%3E%3Ccircle cx='16' cy='17' r='10' fill='%23b5561f'/%3E%3Cpath d='M11 13 L21 21' stroke='%23f7f3ea' stroke-width='2.4' stroke-linecap='round'/%3E%3C/svg%3E" />
 </head>
 <body>
 
-  <!-- Reusable inline SVG icons -->
-  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
-    <symbol id="icon-wheat" viewBox="0 0 24 24">
-      <path d="M12 1c-.4 1.6-1.3 2.6-2.6 3.4.6 1 .6 2 .1 3-1.4-.4-2.4-1.3-3-2.7-.9 1.3-1 2.6-.4 4.1-1.5.1-2.7-.4-3.7-1.6-.4 1.6.1 2.9 1.4 4-1.5.4-2.7-.1-3.8-1.3.1 1.7 1 2.8 2.6 3.4-1.3.8-2.6.7-4-.1.7 1.5 1.9 2.2 3.6 2.1-1 1.2-2.2 1.5-3.8 1 1.1 1.3 2.4 1.7 4 1.1-.6 1.4-1.6 2-3.1 2 1.4 1 2.7 1 4.1.1v3.6h1.4v-3.6c1.4.9 2.8.9 4.1-.1-1.5 0-2.5-.6-3.1-2 1.6.6 2.9.2 4-1.1-1.6.5-2.8.2-3.8-1 1.7.1 2.9-.6 3.6-2.1-1.4.8-2.7.9-4-.1 1.6-.6 2.5-1.7 2.6-3.4-1.1 1.2-2.3 1.7-3.8 1.3 1.3-1.1 1.8-2.4 1.4-4-1 1.2-2.2 1.7-3.7 1.6.6-1.5.5-2.8-.4-4.1-.6 1.4-1.6 2.3-3 2.7-.5-1-.5-2 .1-3-1.3-.8-2.2-1.8-2.6-3.4z" />
-    </symbol>
-    <symbol id="icon-leaf" viewBox="0 0 24 24">
-      <path d="M20 4c-8 0-14 5-15 13-.2 1.4.9 2.6 2.3 2.4C15.1 18.4 20 12.5 20 4zM5 20c1-4 3.4-7 7-9-2.7 3-4 6.3-4.3 9.6" />
-    </symbol>
-    <symbol id="icon-loaf" viewBox="0 0 24 24">
-      <path d="M4 11c0-3.9 3.6-7 8-7s8 3.1 8 7v5a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2v-5zm4-1c1-1 2.5-1.5 4-1.5S15 9 16 10M8 14h8" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" />
-    </symbol>
-    <symbol id="icon-instagram" viewBox="0 0 24 24">
-      <path d="M12 2.2c2.7 0 3 0 4 .1 1 .1 1.7.2 2.3.5.6.3 1.1.6 1.6 1.1.5.5.8 1 1.1 1.6.2.6.4 1.3.5 2.3.1 1 .1 1.3.1 4s0 3-.1 4c-.1 1-.2 1.7-.5 2.3-.3.6-.6 1.1-1.1 1.6-.5.5-1 .8-1.6 1.1-.6.2-1.3.4-2.3.5-1 .1-1.3.1-4 .1s-3 0-4-.1c-1-.1-1.7-.2-2.3-.5-.6-.3-1.1-.6-1.6-1.1-.5-.5-.8-1-1.1-1.6-.2-.6-.4-1.3-.5-2.3-.1-1-.1-1.3-.1-4s0-3 .1-4c.1-1 .2-1.7.5-2.3.3-.6.6-1.1 1.1-1.6.5-.5 1-.8 1.6-1.1.6-.2 1.3-.4 2.3-.5 1-.1 1.3-.1 4-.1zm0 1.8c-2.6 0-2.9 0-4 .1-.8.1-1.3.2-1.6.3-.4.2-.7.3-1 .6-.3.3-.5.6-.6 1-.1.3-.3.8-.3 1.6-.1 1.1-.1 1.4-.1 4s0 2.9.1 4c.1.8.2 1.3.3 1.6.2.4.3.7.6 1 .3.3.6.5 1 .6.3.1.8.3 1.6.3 1.1.1 1.4.1 4 .1s2.9 0 4-.1c.8-.1 1.3-.2 1.6-.3.4-.2.7-.3 1-.6.3-.3.5-.6.6-1 .1-.3.3-.8.3-1.6.1-1.1.1-1.4.1-4s0-2.9-.1-4c-.1-.8-.2-1.3-.3-1.6-.2-.4-.3-.7-.6-1-.3-.3-.6-.5-1-.6-.3-.1-.8-.3-1.6-.3-1.1-.1-1.4-.1-4-.1zm0 3.3a4.7 4.7 0 1 1 0 9.4 4.7 4.7 0 0 1 0-9.4zm0 1.8a2.9 2.9 0 1 0 0 5.8 2.9 2.9 0 0 0 0-5.8zm5-2a1.1 1.1 0 1 1 0 2.2 1.1 1.1 0 0 1 0-2.2z" />
-    </symbol>
-    <symbol id="icon-mail" viewBox="0 0 24 24">
-      <path d="M4 5h16a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1zm1.8 2 6.2 5.1L18.2 7M4 7v10h16V7" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round" />
-    </symbol>
-    <symbol id="icon-pin" viewBox="0 0 24 24">
-      <path d="M12 2C7.6 2 4 5.6 4 10c0 6 8 12 8 12s8-6 8-12c0-4.4-3.6-8-8-8zm0 11a3 3 0 1 1 0-6 3 3 0 0 1 0 6z" />
-    </symbol>
-    <symbol id="icon-clock" viewBox="0 0 24 24">
-      <path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20zm0 2a8 8 0 1 1 0 16 8 8 0 0 1 0-16zm-.8 2.5v6l4.6 2.8.8-1.3-3.9-2.3V6.5z" />
-    </symbol>
-    <symbol id="icon-menu" viewBox="0 0 24 24">
-      <path d="M3 6h18v2H3zM3 11h18v2H3zM3 16h18v2H3z" />
-    </symbol>
-  </svg>
+<a class="skip-link" href="#main">Direkt zum Inhalt</a>
 
-  <header class="site-nav">
-    <div class="container">
-      <a class="brand" href="#hero">
-        <svg class="icon-wheat" aria-hidden="true"><use href="#icon-wheat" /></svg>
-        brotbruder
-      </a>
-      <nav>
-        <ul class="nav-links" id="navLinks">
-          <li><a href="#ueber">Über uns</a></li>
-          <li><a href="#highlights">Highlights</a></li>
-          <li><a href="#kontakt">Kontakt</a></li>
-        </ul>
-      </nav>
-      <a class="btn btn-dark nav-cta" href="#kontakt">Kontakt aufnehmen</a>
-      <button class="nav-toggle" id="navToggle" aria-label="Menü öffnen" aria-expanded="false" aria-controls="navLinks">
-        <svg><use href="#icon-menu" /></svg>
-      </button>
-    </div>
-  </header>
-
-  <main>
-    <!-- HERO -->
-    <section class="hero" id="hero">
-      <svg class="hero-blob" viewBox="0 0 1200 800" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
-        <circle cx="1030" cy="120" r="340" fill="#8ea06b" opacity="0.18" />
-        <circle cx="120" cy="700" r="260" fill="#f1e6d2" opacity="0.08" />
-        <path d="M0 560 C 250 480, 420 640, 700 540 S 1150 460, 1200 560 L1200 800 L0 800 Z" fill="#2b3827" opacity="0.55" />
+<header class="site-header" id="top">
+  <div class="wrap header-inner">
+    <a class="brand" href="#top" aria-label="brotbruder Bio-Bäckerei — Start">
+      <svg class="brand-mark" viewBox="0 0 40 40" fill="none" aria-hidden="true">
+        <circle cx="20" cy="21" r="14" fill="currentColor" />
+        <path d="M13 16l14 10M16 12l12 8" stroke="#f7f3ea" stroke-width="2.6" stroke-linecap="round" />
       </svg>
-      <div class="container">
-        <div class="hero-copy">
-          <span class="eyebrow">
-            <svg class="icon-wheat"><use href="#icon-wheat" /></svg>
-            Bio-Bäckerei · Freiburg-Wiehre
-          </span>
-          <h1>Handwerk, das man schmeckt.<span class="brand-name">brotbruder.</span></h1>
-          <p class="hero-lead">
-            Bio-Brot aus der Zasiusstraße — seit 2022 von Bäckermeister Michael Schulze
-            und seinem Team mit Bioland-Mehl, langer Sauerteigführung und ohne
-            Zusatzstoffe gebacken. So könnte der passende digitale Auftritt für
-            brotbruder aussehen.
-          </p>
-          <div class="hero-actions">
-            <a class="btn btn-primary" href="#kontakt">Jetzt Kontakt aufnehmen</a>
-            <a class="btn btn-outline" href="https://instagram.com/brotbruder_fr" target="_blank" rel="noopener">
-              <svg style="width:18px;height:18px;fill:currentColor"><use href="#icon-instagram" /></svg>
-              @brotbruder_fr
-            </a>
-          </div>
-          <dl class="hero-stats">
-            <div class="hero-stat">
-              <dt>Google-Bewertung</dt>
-              <dd>4,7 ★ <span>(400+ Bewertungen)</span></dd>
-            </div>
-            <div class="hero-stat">
-              <dt>Instagram</dt>
-              <dd>35.000+ <span>Follower bei @brotbruder_fr</span></dd>
-            </div>
-            <div class="hero-stat">
-              <dt>Handwerk</dt>
-              <dd>seit 2022 <span>Bäckermeister Michael Schulze</span></dd>
-            </div>
-          </dl>
-        </div>
-        <div class="hero-visual" aria-hidden="true">
-          <svg viewBox="0 0 320 320" fill="none">
-            <circle cx="160" cy="160" r="150" fill="#4a5c40" />
-            <circle cx="160" cy="160" r="150" fill="url(#heroGrad)" opacity="0.6" />
-            <defs>
-              <radialGradient id="heroGrad" cx="30%" cy="25%" r="80%">
-                <stop offset="0%" stop-color="#b7c48f" />
-                <stop offset="100%" stop-color="#3a4a34" stop-opacity="0" />
-              </radialGradient>
-            </defs>
-            <!-- stylised loaf -->
-            <g transform="translate(60 130)">
-              <ellipse cx="100" cy="90" rx="98" ry="46" fill="#8a5a35" />
-              <path d="M4 88 C 4 44, 44 8, 100 8 C 156 8, 196 44, 196 88 C 196 96, 190 100, 178 100 L 22 100 C 10 100, 4 96, 4 88 Z" fill="#b98455" />
-              <path d="M40 30 C 55 55, 55 70, 40 90" stroke="#8a5a35" stroke-width="4" fill="none" stroke-linecap="round" />
-              <path d="M80 18 C 95 48, 95 72, 80 96" stroke="#8a5a35" stroke-width="4" fill="none" stroke-linecap="round" />
-              <path d="M120 18 C 135 48, 135 72, 120 96" stroke="#8a5a35" stroke-width="4" fill="none" stroke-linecap="round" />
-              <path d="M160 30 C 172 55, 172 70, 160 90" stroke="#8a5a35" stroke-width="4" fill="none" stroke-linecap="round" />
-            </g>
-            <g transform="translate(120 40)" fill="#e2d1b0">
-              <use href="#icon-wheat" width="34" height="34" x="0" y="0" />
-              <use href="#icon-wheat" width="26" height="26" x="46" y="10" opacity="0.75" />
-            </g>
-          </svg>
-        </div>
-      </div>
-    </section>
-
-    <!-- ÜBER UNS -->
-    <section class="about" id="ueber">
-      <div class="container about-grid">
-        <div class="about-visual">
-          <svg viewBox="0 0 220 220" aria-hidden="true">
-            <circle cx="110" cy="110" r="108" fill="#e2d1b0" />
-            <circle cx="110" cy="110" r="80" fill="#f1e6d2" />
-            <g fill="#6b7f4f">
-              <use href="#icon-wheat" width="46" height="46" x="87" y="46" />
-            </g>
-            <g stroke="#8a5a35" stroke-width="3" fill="none" stroke-linecap="round" opacity="0.5">
-              <path d="M50 150 C 80 170, 140 170, 170 150" />
-              <path d="M60 165 C 90 180, 130 180, 160 165" />
-            </g>
-          </svg>
-        </div>
-        <div class="about-copy reveal">
-          <span class="eyebrow">
-            <svg class="icon-wheat"><use href="#icon-leaf" /></svg>
-            Über uns
-          </span>
-          <h2>Bio-Brot mit Charakter, mitten in Freiburg</h2>
-          <p>
-            brotbruder ist die Bio-Bäckerei in der Zasiusstraße, in der Handwerk noch
-            genau das bedeutet: Zeit, Sorgfalt und gute Zutaten statt Fertigmischungen.
-            Gegründet 2022 von Bäckermeister Michael Schulze im Stadtteil Wiehre.
-          </p>
-          <p>
-            Gebacken wird ausschließlich mit Bioland-Mehl und ohne Zusatzstoffe, mit
-            langer Sauerteigführung und einem bewusst kleinen Sortiment — damit jedes
-            Brot seinen eigenen Geschmack entwickeln kann, bevor es in den Ofen kommt.
-          </p>
-          <p>
-            Auf Instagram teilen wir Backtage, Zutaten und Alltag aus der Backstube
-            mit einer Community von über 35.000 Menschen, die genauso viel Freude an
-            gutem Brot hat wie wir.
-          </p>
-        </div>
-      </div>
-    </section>
-
-    <!-- HIGHLIGHTS -->
-    <section class="highlights" id="highlights">
-      <div class="container">
-        <div class="section-head reveal">
-          <span class="eyebrow">
-            <svg class="icon-wheat"><use href="#icon-wheat" /></svg>
-            Was brotbruder ausmacht
-          </span>
-          <h2>Handwerk, Bio-Anspruch &amp; Nachbarschaft</h2>
-          <p>Drei Dinge, die den Charakter von brotbruder prägen.</p>
-        </div>
-        <div class="card-grid">
-          <article class="card reveal">
-            <div class="card-icon"><svg><use href="#icon-leaf" /></svg></div>
-            <h3>Bio-Zutaten</h3>
-            <p>
-              Gebacken wird ausschließlich mit Bioland-Mehl und ohne Zusatzstoffe —
-              für Brot, dem man die Qualität anschmeckt.
-            </p>
-          </article>
-          <article class="card reveal">
-            <div class="card-icon"><svg><use href="#icon-loaf" /></svg></div>
-            <h3>Sauerteig &amp; Handwerk</h3>
-            <p>
-              Lange Ruhezeiten, viel Geduld und echtes Bäckerhandwerk statt Abkürzungen —
-              seit 2022 unter der Leitung von Bäckermeister Michael Schulze.
-            </p>
-          </article>
-          <article class="card reveal">
-            <div class="card-icon"><svg><use href="#icon-instagram" /></svg></div>
-            <h3>Instagram-Community</h3>
-            <p>
-              Über <strong>35.000 Follower</strong> begleiten <strong>@brotbruder_fr</strong>
-              hinter die Kulissen — Backtage, Neuigkeiten und der direkte Draht in die
-              Backstube.
-            </p>
-          </article>
-          <article class="card reveal">
-            <div class="card-icon"><svg><use href="#icon-pin" /></svg></div>
-            <h3>Frisch aus der Nachbarschaft</h3>
-            <p>
-              Mitten in Freiburg-Wiehre gebacken, für Freiburg gebacken — kurze Wege und
-              gelebte Nähe zur Nachbarschaft rund um die Zasiusstraße.
-            </p>
-          </article>
-          <article class="card reveal">
-            <div class="card-icon"><svg><use href="#icon-wheat" /></svg></div>
-            <h3>Ausgezeichnet &amp; nachhaltig</h3>
-            <p>
-              Ausgezeichnet von der Handwerkskammer Freiburg — und nachhaltig gedacht:
-              Restbrot-Verwertung, Kaffee im Recup-Mehrwegsystem und unverkaufte Ware
-              geht an die Freiburger Tafel.
-            </p>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <!-- KONTAKT -->
-    <section class="contact" id="kontakt">
-      <div class="container">
-        <div class="section-head reveal" style="margin-bottom:1rem">
-          <span class="eyebrow">
-            <svg class="icon-wheat"><use href="#icon-wheat" /></svg>
-            Standort &amp; Kontakt
-          </span>
-          <h2>Vorbeikommen oder schreiben</h2>
-          <p>Wir freuen uns, von Ihnen zu hören — vor Ort oder digital.</p>
-        </div>
-
-        <div class="contact-grid">
-          <div class="contact-card reveal">
-            <h3><svg><use href="#icon-pin" /></svg> Adresse</h3>
-            <ul class="contact-list">
-              <li><strong>brotbruder Bio-Bäckerei</strong></li>
-              <li>Zasiusstraße 9</li>
-              <li>Freiburg im Breisgau</li>
-            </ul>
-            <a class="btn btn-primary" href="https://www.google.com/maps/search/?api=1&query=Zasiusstra%C3%9Fe%209%2C%20Freiburg%20im%20Breisgau" target="_blank" rel="noopener">
-              Route in Google Maps
-            </a>
-            <p class="placeholder-note">4,7 ★ auf Google (400+ Bewertungen)</p>
-
-            <h3 style="margin-top:1.8rem"><svg><use href="#icon-clock" /></svg> Öffnungszeiten</h3>
-            <p>Montag – Freitag: 7:30 – 18:00 Uhr</p>
-            <p class="placeholder-note">Quelle: Instagram-Bio @brotbruder_fr.</p>
-          </div>
-
-          <div class="contact-card reveal">
-            <h3><svg><use href="#icon-mail" /></svg> Schreiben Sie uns</h3>
-            <p>Für Fragen, Anregungen oder eine gemeinsame Idee für Ihre neue Website.</p>
-            <a class="btn btn-dark" href="mailto:hallo@brotbruder.de">
-              <svg style="width:18px;height:18px;fill:currentColor"><use href="#icon-mail" /></svg>
-              hallo@brotbruder.de
-            </a>
-            <p class="placeholder-note">Platzhalter-Adresse für diesen Entwurf.</p>
-
-            <h3 style="margin-top:1.8rem"><svg><use href="#icon-instagram" /></svg> Instagram</h3>
-            <p>Über 35.000 Follower — der schnellste Weg zu brotbruder mit Backtagen, Neuigkeiten und mehr.</p>
-            <a class="btn btn-primary" href="https://instagram.com/brotbruder_fr" target="_blank" rel="noopener">
-              <svg style="width:18px;height:18px;fill:currentColor"><use href="#icon-instagram" /></svg>
-              @brotbruder_fr
-            </a>
-          </div>
-        </div>
-      </div>
-    </section>
-  </main>
-
-  <footer>
-    <div class="container footer-inner">
-      <span class="brand-mini">
-        <svg><use href="#icon-wheat" /></svg>
-        brotbruder Bio-Bäckerei
+      <span class="brand-text">
+        <span class="brand-name">brotbruder</span>
+        <span class="brand-sub">Bio-Bäckerei · Zasiusstraße 9</span>
       </span>
-      <span>© 2026 brotbruder Bio-Bäckerei · Zasiusstraße 9, Freiburg-Wiehre · Bio-Handwerk seit 2022</span>
-      <span class="footer-note">Website-Entwurf — unverbindlicher Gestaltungsvorschlag</span>
+    </a>
+
+    <button class="nav-toggle" id="navToggle" type="button" aria-label="Menü öffnen" aria-expanded="false" aria-controls="mainNav">
+      <span></span><span></span><span></span>
+    </button>
+
+    <nav class="site-nav" id="mainNav" aria-label="Hauptnavigation">
+      <ul>
+        <li><a href="#zeit">Zwanzig Stunden</a></li>
+        <li><a href="#sortiment">Sortiment</a></li>
+        <li><a href="#backstube">Backstube</a></li>
+        <li><a href="#kreislauf">Kreislauf</a></li>
+        <li><a href="#kontakt">Kontakt</a></li>
+      </ul>
+    </nav>
+
+    <span class="header-status" id="headerStatus" hidden></span>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- ================= HERO =================
+       Der Unterschied dieser Bäckerei ist keine Sorte, sondern Zeit:
+       lange Sauerteigführung. Deshalb steht die Zeit im Hero und nicht
+       ein weiteres "Handwerk, das man schmeckt". -->
+  <section class="hero">
+    <div class="wrap hero-inner">
+      <div class="hero-copy">
+        <p class="eyebrow">Zasiusstraße 9 · Freiburg-Wiehre · seit 2022</p>
+        <h1>Zwanzig Stunden.<br />Vier Zutaten.<br /><em>Ein Brot.</em></h1>
+        <p class="hero-lead">
+          Mehl, Wasser, Salz, Sauerteig. Was ein Brot von einem Brötchen aus der
+          Aufbackstation unterscheidet, ist nichts, was man dazugibt — es ist
+          die Zeit, die man ihm lässt. Bei uns fängt das Brot von morgen früh
+          heute Nachmittag an.
+        </p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#zeit">Die zwanzig Stunden</a>
+          <a class="btn btn-outline" href="https://instagram.com/brotbruder_fr" target="_blank" rel="noopener">@brotbruder_fr</a>
+        </div>
+      </div>
+
+      <!-- Rundlaib von oben: Bemehlung und Schnittmuster. -->
+      <div class="hero-art" aria-hidden="true">
+        <svg viewBox="0 0 320 320" fill="none">
+          <defs>
+            <radialGradient id="loaf" cx=".38" cy=".32" r=".78">
+              <stop offset="0" stop-color="#e3ab63" />
+              <stop offset=".55" stop-color="#c07434" />
+              <stop offset="1" stop-color="#8c4a1c" />
+            </radialGradient>
+          </defs>
+          <circle cx="160" cy="168" r="140" fill="#e9e0cd" />
+          <circle cx="160" cy="162" r="126" fill="url(#loaf)" />
+          <!-- Bemehlung: helle Sprenkel -->
+          <g fill="#f5e7cd" opacity=".5">
+            <circle cx="104" cy="98" r="3.4" /><circle cx="196" cy="86" r="2.6" />
+            <circle cx="238" cy="146" r="3" /><circle cx="86" cy="180" r="2.8" />
+            <circle cx="140" cy="242" r="3.2" /><circle cx="214" cy="228" r="2.4" />
+            <circle cx="168" cy="120" r="2.2" /><circle cx="120" cy="196" r="2" />
+          </g>
+          <!-- Der Schnitt: aufgerissene Kruste mit heller Kante -->
+          <path d="M72 206C104 152 150 108 226 92" stroke="#f2ddb6" stroke-width="17" stroke-linecap="round" fill="none" />
+          <path d="M72 206C104 152 150 108 226 92" stroke="#6f3612" stroke-width="7" stroke-linecap="round" fill="none" />
+          <path d="M104 246C130 200 168 162 232 146" stroke="#f2ddb6" stroke-width="11" stroke-linecap="round" fill="none" opacity=".8" />
+          <path d="M104 246C130 200 168 162 232 146" stroke="#6f3612" stroke-width="4.4" stroke-linecap="round" fill="none" opacity=".8" />
+          <!-- Ähre am Rand -->
+          <g transform="translate(268,242) rotate(-24)" stroke="#7d8a4e" stroke-width="3" stroke-linecap="round" fill="none">
+            <path d="M0 60V0" />
+            <path d="M0 12c-9-4-13-12-13-20M0 12c9-4 13-12 13-20M0 30c-9-4-13-12-13-20M0 30c9-4 13-12 13-20M0 48c-9-4-13-12-13-20M0 48c9-4 13-12 13-20" />
+          </g>
+        </svg>
+      </div>
     </div>
-  </footer>
+  </section>
 
-  <script>
-    (function () {
-      var toggle = document.getElementById('navToggle');
-      var links = document.getElementById('navLinks');
-      if (toggle && links) {
-        toggle.addEventListener('click', function () {
-          var open = links.classList.toggle('open');
-          toggle.setAttribute('aria-expanded', open ? 'true' : 'false');
-        });
-        links.querySelectorAll('a').forEach(function (a) {
-          a.addEventListener('click', function () {
-            links.classList.remove('open');
-            toggle.setAttribute('aria-expanded', 'false');
-          });
-        });
-      }
+  <!-- Kennzahlenband -->
+  <div class="figures">
+    <div class="wrap">
+      <div><strong>2022</strong><span>gegründet von Bäckermeister Michael Schulze</span></div>
+      <div><strong>4,7 ★</strong><span>aus über 400 Google-Bewertungen</span></div>
+      <div><strong>35.000+</strong><span>folgen @brotbruder_fr</span></div>
+      <div><strong>Bioland</strong><span>Mehl, ohne Zusatzstoffe</span></div>
+    </div>
+  </div>
 
-      if ('IntersectionObserver' in window) {
-        var revealEls = document.querySelectorAll('.reveal');
-        var io = new IntersectionObserver(function (entries) {
-          entries.forEach(function (entry) {
-            if (entry.isIntersecting) {
-              entry.target.classList.add('is-visible');
-              io.unobserve(entry.target);
-            }
-          });
-        }, { threshold: 0.15 });
-        revealEls.forEach(function (el) { io.observe(el); });
-      } else {
-        document.querySelectorAll('.reveal').forEach(function (el) {
-          el.classList.add('is-visible');
-        });
-      }
-    })();
-  </script>
+  <!-- ================= DIE ZWANZIG STUNDEN =================
+       Das Herzstück: der Weg eines Laibs, in Stunden. Sagt in einer
+       Spalte, was "lange Sauerteigführung" tatsächlich bedeutet —
+       und warum das Brot mehr kostet als beim Discounter. -->
+  <section class="section timeline" id="zeit">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="kicker">Vom Anstellgut zur Theke</p>
+        <h2>Was zwanzig Stunden mit einem Brot machen</h2>
+        <p class="section-note">
+          „Lange Sauerteigführung" steht auf vielen Schildern. Hier steht, was
+          das heißt — Stunde für Stunde, und warum kein Schritt sich abkürzen
+          lässt.
+        </p>
+      </div>
+
+      <ol class="steps">
+        <li>
+          <span class="step-time">— 20 h</span>
+          <div class="step-body">
+            <h3>Anstellgut auffrischen</h3>
+            <p>Der Sauerteig wird gefüttert. Er ist der älteste Mitarbeiter im Haus und der einzige, der niemals Urlaub bekommt.</p>
+          </div>
+        </li>
+        <li>
+          <span class="step-time">— 17 h</span>
+          <div class="step-body">
+            <h3>Autolyse</h3>
+            <p>Mehl und Wasser allein, ohne Salz, ohne Sauerteig. Das Korn zieht Wasser, das Klebergerüst entsteht von selbst — ganz ohne Kneten.</p>
+          </div>
+        </li>
+        <li>
+          <span class="step-time">— 15 h</span>
+          <div class="step-body">
+            <h3>Teig ansetzen</h3>
+            <p>Jetzt kommen Sauerteig und Salz dazu. Ab hier ist der Teig lebendig und bestimmt das Tempo — nicht der Zeitplan.</p>
+          </div>
+        </li>
+        <li>
+          <span class="step-time">— 12 h</span>
+          <div class="step-body">
+            <h3>Stockgare mit Dehnen und Falten</h3>
+            <p>Alle halbe Stunde wird der Teig gefaltet statt geknetet. Das gibt Struktur, ohne Luft herauszupressen.</p>
+          </div>
+        </li>
+        <li>
+          <span class="step-time">— 9 h</span>
+          <div class="step-body">
+            <h3>Formen und ab in die Kälte</h3>
+            <p>Der Laib kommt ins Gärkörbchen und über Nacht in den kalten Raum. Die Kälte bremst die Hefen, die Säuren arbeiten weiter — daher der Geschmack.</p>
+          </div>
+        </li>
+        <li>
+          <span class="step-time">— 1 h</span>
+          <div class="step-body">
+            <h3>Einschneiden und backen</h3>
+            <p>Der Schnitt entscheidet, wo das Brot aufreißt. Erst mit Dampf, dann ohne, bis die Kruste dunkel genug ist, dass manche sie „zu dunkel" nennen.</p>
+          </div>
+        </li>
+        <li class="is-final">
+          <span class="step-time">7:30</span>
+          <div class="step-body">
+            <h3>Die Tür geht auf</h3>
+            <p>Warm ist es dann nicht mehr — ausgekühlt schmeckt Sauerteigbrot besser, und schneiden lässt es sich auch. Wer trotzdem warmes Brot will: sagen Sie Bescheid.</p>
+          </div>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- ================= SORTIMENT ================= -->
+  <section class="section range" id="sortiment">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="kicker">Das Sortiment</p>
+        <h2>Absichtlich kurz</h2>
+        <p class="section-note">
+          Ein kleines Sortiment ist keine Einschränkung, sondern die
+          Voraussetzung: Nur wenige Teige lassen sich zwanzig Stunden lang
+          ernst nehmen. Was am jeweiligen Tag tatsächlich im Regal liegt, steht
+          morgens auf Instagram.
+        </p>
+      </div>
+
+      <ul class="range-list">
+        <li>
+          <div class="r-main">
+            <h3>Roggenmischbrot</h3>
+            <p>Kräftig, saftig, hält eine Woche. Das Brot, das die meisten Stammkunden mitnehmen, ohne zu fragen.</p>
+          </div>
+          <dl class="r-spec">
+            <div><dt>Mehl</dt><dd>Bioland-Roggen &amp; Weizen</dd></div>
+            <div><dt>Führung</dt><dd>Roggensauerteig</dd></div>
+            <div><dt>Krume</dt><dd>feinporig, feucht</dd></div>
+          </dl>
+        </li>
+        <li>
+          <div class="r-main">
+            <h3>Weizensauerteig</h3>
+            <p>Große, unregelmäßige Poren, dunkle Kruste, deutliche Säure. Das Brot, an dem man eine Backstube erkennt.</p>
+          </div>
+          <dl class="r-spec">
+            <div><dt>Mehl</dt><dd>Bioland-Weizen</dd></div>
+            <div><dt>Führung</dt><dd>über Nacht kalt</dd></div>
+            <div><dt>Krume</dt><dd>offenporig</dd></div>
+          </dl>
+        </li>
+        <li>
+          <div class="r-main">
+            <h3>Dinkelbrot</h3>
+            <p>Milder, nussiger, etwas trockener. Für alle, die Weizen meiden wollen, ohne auf Brot zu verzichten.</p>
+          </div>
+          <dl class="r-spec">
+            <div><dt>Mehl</dt><dd>Bioland-Dinkel</dd></div>
+            <div><dt>Führung</dt><dd>schonend, kurz geknetet</dd></div>
+            <div><dt>Krume</dt><dd>gleichmäßig</dd></div>
+          </dl>
+        </li>
+        <li>
+          <div class="r-main">
+            <h3>Brötchen &amp; Kleingebäck</h3>
+            <p>Auch hier über Nacht geführt. Deshalb sind sie um zehn Uhr noch gut und nicht schon zäh.</p>
+          </div>
+          <dl class="r-spec">
+            <div><dt>Mehl</dt><dd>Bioland</dd></div>
+            <div><dt>Führung</dt><dd>kalt, über Nacht</dd></div>
+            <div><dt>Menge</dt><dd>begrenzt, morgens</dd></div>
+          </dl>
+        </li>
+        <li>
+          <div class="r-main">
+            <h3>Süßes aus der Backstube</h3>
+            <p>Wechselnd und in kleiner Zahl — was die Backstube neben dem Brot noch schafft.</p>
+          </div>
+          <dl class="r-spec">
+            <div><dt>Auswahl</dt><dd>täglich anders</dd></div>
+            <div><dt>Aktuell</dt><dd>auf Instagram</dd></div>
+            <div><dt>Kaffee</dt><dd>im Recup-Mehrwegbecher</dd></div>
+          </dl>
+        </li>
+      </ul>
+
+      <p class="range-note">
+        Die Aufstellung ist für diesen Entwurf zusammengestellt und nennt
+        bewusst keine Preise. Vor einem Launch gehört hier die echte Karte der
+        Backstube hin.
+      </p>
+    </div>
+  </section>
+
+  <!-- ================= BACKSTUBE ================= -->
+  <section class="section bakehouse" id="backstube">
+    <div class="wrap bakehouse-grid">
+      <div>
+        <p class="kicker">Die Backstube</p>
+        <h2>Eine Bäckerei, die nachts arbeitet und tagsüber erklärt</h2>
+        <p>
+          brotbruder gibt es seit 2022. Gegründet hat sie Bäckermeister
+          <strong>Michael Schulze</strong> in der Zasiusstraße, mitten in der
+          Wiehre — kein Filialbetrieb, keine Zentralbackstube, sondern der Ofen
+          hinter der Theke, an der verkauft wird.
+        </p>
+        <p>
+          Ungewöhnlich ist, wie offen das nach außen läuft: Auf Instagram
+          folgen über 35.000 Menschen den Backtagen, den Teigen, den misslungenen
+          Chargen. Das ist keine Werbung, sondern eher eine offene Küchentür —
+          und der Grund, warum viele schon wissen, was es gibt, bevor sie
+          hereinkommen.
+        </p>
+        <p>
+          Von der Handwerkskammer Freiburg ist der Betrieb ausgezeichnet worden.
+          Wichtiger ist im Alltag aber die andere Auszeichnung: 4,7 von 5 bei
+          über 400 Leuten, die einfach ihr Brot gekauft haben.
+        </p>
+        <a class="btn btn-outline" href="https://instagram.com/brotbruder_fr" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" width="19" height="19" fill="none" aria-hidden="true"><rect x="3.5" y="3.5" width="17" height="17" rx="5" stroke="currentColor" stroke-width="1.8"/><circle cx="12" cy="12" r="4.2" stroke="currentColor" stroke-width="1.8"/><circle cx="17.2" cy="6.8" r="1.1" fill="currentColor"/></svg>
+          In die Backstube schauen
+        </a>
+      </div>
+
+      <blockquote class="pull">
+        <p>Ein kleines Sortiment, damit jedes Brot seinen eigenen Geschmack entwickeln kann, bevor es in den Ofen kommt.</p>
+        <footer>Das Prinzip der Backstube, sinngemäß</footer>
+      </blockquote>
+    </div>
+  </section>
+
+  <!-- ================= KREISLAUF =================
+       Nachhaltigkeit war im alten Entwurf eine Kachel unter fünf. Hier
+       ist sie ein Kreis, weil es tatsächlich einer ist: Restbrot,
+       Mehrwegbecher, Tafel. -->
+  <section class="section cycle" id="kreislauf">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="kicker">Was übrig bleibt</p>
+        <h2>Am Ende des Tages ist nichts übrig</h2>
+        <p class="section-note">
+          Eine Bäckerei, die ehrlich backt, produziert Reste. Die Frage ist
+          nur, was daraus wird.
+        </p>
+      </div>
+
+      <div class="cycle-grid">
+        <article class="cycle-card">
+          <span class="c-num" aria-hidden="true">01</span>
+          <h3>Restbrot wird wieder Brot</h3>
+          <p>Altbrot geht als Brotquellstück zurück in den nächsten Teig. Das ist kein Trick, sondern altes Handwerk — und schmeckt sogar besser.</p>
+        </article>
+        <article class="cycle-card">
+          <span class="c-num" aria-hidden="true">02</span>
+          <h3>Unverkauftes an die Tafel</h3>
+          <p>Was am Abend übrig ist, geht an die Freiburger Tafel, statt in die Tonne.</p>
+        </article>
+        <article class="cycle-card">
+          <span class="c-num" aria-hidden="true">03</span>
+          <h3>Kaffee im Mehrwegbecher</h3>
+          <p>Recup statt Einweg. Eigener Becher geht selbstverständlich auch.</p>
+        </article>
+        <article class="cycle-card">
+          <span class="c-num" aria-hidden="true">04</span>
+          <h3>Bioland vom Anfang an</h3>
+          <p>Kein Zusatzstoff, keine Fertigmischung, kein Backmittel. Was drin ist, steht auf vier Zeilen.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= KONTAKT ================= -->
+  <section class="section contact" id="kontakt">
+    <div class="wrap contact-grid">
+      <div>
+        <p class="kicker">Vorbeikommen</p>
+        <div class="status-badge" id="statusBadge" hidden>
+          <span class="status-dot" aria-hidden="true"></span>
+          <span id="statusText"></span>
+        </div>
+        <h2>Zasiusstraße 9</h2>
+        <p class="section-note">
+          In der Wiehre, zu Fuß von der Johanneskirche in ein paar Minuten.
+          Wer ein bestimmtes Brot sicher haben will, sagt am Vortag Bescheid —
+          bei kleinen Chargen ist am Nachmittag manchmal Schluss.
+        </p>
+
+        <div class="contact-links">
+          <a class="contact-link" href="https://www.google.com/maps/search/?api=1&amp;query=Zasiusstra%C3%9Fe%209%2C%2079102%20Freiburg%20im%20Breisgau" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 21c-5-5-8-8.6-8-12a8 8 0 0 1 16 0c0 3.4-3 7-8 12Z" stroke="currentColor" stroke-width="1.6"/><circle cx="12" cy="9" r="2.6" stroke="currentColor" stroke-width="1.6"/></svg>
+            <span><strong>Zasiusstraße 9</strong><span>79102 Freiburg im Breisgau · Route planen</span></span>
+          </a>
+          <a class="contact-link" href="https://instagram.com/brotbruder_fr" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><rect x="3.5" y="3.5" width="17" height="17" rx="5" stroke="currentColor" stroke-width="1.6"/><circle cx="12" cy="12" r="4.2" stroke="currentColor" stroke-width="1.6"/><circle cx="17.2" cy="6.8" r="1.1" fill="currentColor"/></svg>
+            <span><strong>@brotbruder_fr</strong><span>Was heute im Regal liegt — meist schon vor sieben</span></span>
+          </a>
+        </div>
+      </div>
+
+      <aside class="hours-card">
+        <h3>Öffnungszeiten</h3>
+        <ul class="hours-list" id="hoursList">
+          <li data-day="1"><span>Montag</span><span>7:30 – 18:00</span></li>
+          <li data-day="2"><span>Dienstag</span><span>7:30 – 18:00</span></li>
+          <li data-day="3"><span>Mittwoch</span><span>7:30 – 18:00</span></li>
+          <li data-day="4"><span>Donnerstag</span><span>7:30 – 18:00</span></li>
+          <li data-day="5"><span>Freitag</span><span>7:30 – 18:00</span></li>
+          <li data-day="6" class="is-unknown"><span>Samstag</span><span>nicht bestätigt</span></li>
+          <li data-day="0" class="is-unknown"><span>Sonntag</span><span>nicht bestätigt</span></li>
+        </ul>
+        <p class="hours-note">
+          Montag bis Freitag laut Instagram-Profil. Für Samstag und Sonntag gibt
+          es keine verlässliche Quelle — deshalb steht hier nichts Erfundenes.
+          <strong>Vor dem Launch:</strong> Wochenendzeiten und eine
+          Telefonnummer ergänzen.
+        </p>
+      </aside>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap footer-inner">
+    <div class="footer-brand">
+      <span class="brand-name">brotbruder</span>
+      <p>Bio-Bäckerei · Zasiusstraße 9 · 79102 Freiburg-Wiehre<br />Bioland-Mehl, lange Sauerteigführung, kleines Sortiment. Seit 2022.</p>
+    </div>
+    <nav class="footer-links" aria-label="Fußzeile">
+      <a href="#zeit">Zwanzig Stunden</a>
+      <a href="#sortiment">Sortiment</a>
+      <a href="#kreislauf">Kreislauf</a>
+      <a href="https://instagram.com/brotbruder_fr" target="_blank" rel="noopener">@brotbruder_fr</a>
+    </nav>
+  </div>
+  <div class="wrap footer-bottom">
+    <span>&copy; <span id="year">2026</span> brotbruder Bio-Bäckerei</span>
+    <span class="footer-note">Website-Entwurf, noch keine offizielle Seite der Bäckerei. Angaben aus öffentlichen Quellen und dem Instagram-Profil; Impressum und Datenschutzerklärung fehlen und sind vor einem echten Launch Pflicht.</span>
+  </div>
+</footer>
+
+<script src="script.js"></script>
 </body>
 </html>
